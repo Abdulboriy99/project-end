@@ -69,12 +69,17 @@ padding: 0 15px;
     font-size: 22px;
     line-height: 26.82px;
     margin: 16px 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .products__left{
-    background: #E1E1E1;
     margin-right: 24px;
-    width: 540px;
-    border-radius: 10px;
+    width: 526px;
+    
 }
 .products__left-img{
     padding-top: 73px;
@@ -84,11 +89,275 @@ padding: 0 15px;
     background: #E1E1E1;
     width: 746px;
     border-radius: 10px;
-}
-.products__right-img{
-    padding: 188px;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 .products__item{
   display:flex;
-   
+  background: #E1E1E1;
+  border-radius: 10px;
+  position: relative;
+  justify-content: center;
+}
+.mrgn{
+    margin-bottom: 30px;
+}
+.products__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.products__title{
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #323232;
+    font-weight: 400;
+}
+.products__about{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #000000;
+}
+.products__about-text{
+    font-weight: 400;
+}
+.first{
+    font-size: 16px;
+    padding: 20px;
+}
+.twice{
+    padding: 18.39px;
+}
+.second{
+    font-size: 22px;
+    line-height: 16px;
+    padding: 29.09px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    line-height: 36.57px;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    margin-top: 60px;
+}
+.about>.container>.title{
+    border-bottom: solid 2px #323232;
+    padding-bottom: 20px;
+}
+.product__style{
+   margin: auto;
+   text-align: center;
+   display: flex;
+}
+.about__item{
+    background: #E1E1E1;
+    border-radius: 10px;
+    width: 416px;
+    text-align: center;
+    position: relative;
+    padding-top: 72px;
+    padding-bottom: 39px;
+}
+.about__sales{
+    background: #323232;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #FFFFFF;
+    margin: 20px 20px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about__select{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 19px;
+    top: 20px;
+    row-gap: 20px;
+  cursor: pointer;
+}
+.about__title{
+    font-family: Montserrat;
+    color: #323232;
+    font-size: 20px;
+    line-height: 24.38px;
+    padding: 20px;
+    font-weight: 400;
+}
+.about__name{
+    font-family: Montserrat;
+    color: #000000;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 24.38px;
+padding-bottom: 20px;
+text-transform: uppercase;
+}
+.about__price{
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 23px;
+    color: #323232;
+
+}
+.about__content{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 24px;
+    margin-top: 40px;
+}
+.more>.container>.border{
+    border-bottom: solid 2px #323232;
+    padding-bottom: 30px;
+}
+.more__item{
+    background: url(../images/more-img1.jpg) no-repeat center / cover;
+    width: 636px;
+    height: 470px;
+    border-radius: 10px;
+    position: relative;
+}
+.more__item-right{
+    background: url(../images/more-img2.png)  no-repeat center / cover;
+    width: 636px;
+    border-radius: 10px;
+    position: relative;
+}
+.more__content{
+    display: flex;
+    column-gap: 24px;
+    margin-top: 40px;
+}
+.more__advice{
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #323232;
+    background: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more__title{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.82px;
+    width: 466px;
+    position: absolute;
+    top: 110px;
+    left: 60px;
+}
+.right{
+    width: 356px;
+}
+.more__text{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E1E1E1;
+    width: 462px;
+    position: absolute;
+    top: 194px;
+    left: 64px;
+}
+.more__data{
+    display: flex;
+    position:absolute;
+    top: 390px;
+    left: 60px;
+    column-gap: 10px;
+}
+.more__data-number{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #FFFFFF;
+}
+.footer{
+    background:#323232;
+}
+.footer__content{
+    display: flex;
+    margin-top: 60px;
+    padding-top: 100px;
+  padding-bottom: 87px;
+}
+.white{
+    color: #FFFFFF;
+    padding-right: 160px;
+}
+.footer__list{
+    padding-top: 40px;
+}
+.footer__link{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
+}
+.footer__about{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 26.82px;
+    letter-spacing: 2.2px;
+    font-weight: 400;
+    padding-right: 217px;
+    text-transform: uppercase;
+}
+.footer__text{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.footer__contacts{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
+    padding-right: 10.31px;
+}
+.footer__email{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
+}
+.footer__media{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
+    letter-spacing: 2.2px;
+    padding-top: 60px;
+}
+.footer__about-icons{
+    display: flex;
+    column-gap: 26px;
+    padding-top: 40px;
 }
