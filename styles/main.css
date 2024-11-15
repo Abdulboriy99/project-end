@@ -92,6 +92,7 @@ padding: 0 15px;
     position: relative;
     display: flex;
     align-items: center;
+    box-shadow: 6px 6px 15px 0px #8484844D;
 }
 .products__item{
   display:flex;
@@ -99,6 +100,7 @@ padding: 0 15px;
   border-radius: 10px;
   position: relative;
   justify-content: center;
+  box-shadow: 6px 6px 15px 0px #8484844D;
 }
 .mrgn{
     margin-bottom: 30px;
@@ -108,7 +110,6 @@ padding: 0 15px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-transform: uppercase;
 }
 .products__title{
     font-size: 16px;
@@ -121,6 +122,7 @@ padding: 0 15px;
     font-weight: 700;
     line-height: 19px;
     color: #000000;
+    text-transform: uppercase;
 }
 .products__about-text{
     font-weight: 400;
@@ -162,6 +164,7 @@ padding: 0 15px;
     position: relative;
     padding-top: 72px;
     padding-bottom: 39px;
+    box-shadow: 6px 6px 15px 0px #8484844D;
 }
 .about__sales{
     background: #323232;
@@ -224,6 +227,9 @@ text-transform: uppercase;
 .more>.container>.border{
     border-bottom: solid 2px #323232;
     padding-bottom: 30px;
+}
+.border{
+    text-transform: uppercase;
 }
 .more__item{
     background: url(../images/more-img1.jpg) no-repeat center / cover;
@@ -310,6 +316,9 @@ text-transform: uppercase;
 }
 .footer__list{
     padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 .footer__link{
     color: #FFFFFF;
@@ -347,6 +356,8 @@ text-transform: uppercase;
     font-family: Montserrat;
     font-size: 18px;
     line-height: 21.94px;
+    display: block;
+    padding-top: 15px;
 }
 .footer__media{
     color: #FFFFFF;
